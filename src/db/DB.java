@@ -54,7 +54,6 @@ public class DB {
 				throw new DbException(e.getMessage());
 			}
 		}
-
 	}
 
 	public static void closeResultSet(ResultSet rs) {
